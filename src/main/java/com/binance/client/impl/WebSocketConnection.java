@@ -48,6 +48,10 @@ public class WebSocketConnection extends WebSocketListener {
         this.request = request;
         this.autoClose = autoClose;
 
+        if(options.getUri() != null && !options.getUri().equals("wss://api.binance.pro/")) {
+            subscriptionUrl = options.getUri();
+        }
+
         this.okhttpRequest = request.authHandler == null ? new Request.Builder().url(subscriptionUrl).build()
                 : new Request.Builder().url(subscriptionUrl).build();
         this.watchDog = watchDog;

@@ -118,7 +118,7 @@ public class JsonWrapper {
         }
     }
 
-    public long getLongOrDefault(String name, long defValue) {
+    public Long getLongOrDefault(String name, Long defValue) {
         try {
             if (!containKey(name)) {
                 return defValue;

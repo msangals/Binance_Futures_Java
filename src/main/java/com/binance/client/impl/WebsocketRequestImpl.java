@@ -476,7 +476,7 @@ class WebsocketRequestImpl {
                 accountUpdate.setBalances(balanceList);
 
                 List<PositionUpdate> positionList = new LinkedList<>();
-                JsonWrapperArray datalist = jsonWrapper.getJsonObject("a").getJsonArray("B");
+                JsonWrapperArray datalist = jsonWrapper.getJsonObject("a").getJsonArray("P");
                 datalist.forEach(item -> {
                     PositionUpdate position = new PositionUpdate();
                     position.setSymbol(item.getString("s"));
@@ -493,30 +493,30 @@ class WebsocketRequestImpl {
             } else if(jsonWrapper.getString("e").equals("ORDER_TRADE_UPDATE")) {
                 OrderUpdate orderUpdate = new OrderUpdate();
                 JsonWrapper jsondata = jsonWrapper.getJsonObject("o");
-                orderUpdate.setSymbol(jsondata.getString("s"));
-                orderUpdate.setClientOrderId(jsondata.getString("c"));
-                orderUpdate.setSide(jsondata.getString("S"));
-                orderUpdate.setType(jsondata.getString("o"));
-                orderUpdate.setTimeInForce(jsondata.getString("f"));
-                orderUpdate.setOrigQty(jsondata.getBigDecimal("q"));
-                orderUpdate.setPrice(jsondata.getBigDecimal("p"));
-                orderUpdate.setAvgPrice(jsondata.getBigDecimal("ap"));
-                orderUpdate.setStopPrice(jsondata.getBigDecimal("sp"));
-                orderUpdate.setExecutionType(jsondata.getString("x"));
-                orderUpdate.setOrderStatus(jsondata.getString("X"));
-                orderUpdate.setOrderId(jsondata.getLong("i"));
-                orderUpdate.setLastFilledQty(jsondata.getBigDecimal("l"));
-                orderUpdate.setCumulativeFilledQty(jsondata.getBigDecimal("z"));
-                orderUpdate.setLastFilledPrice(jsondata.getBigDecimal("L"));
-                orderUpdate.setCommissionAsset(jsondata.getString("N"));
-                orderUpdate.setCommissionAmount(jsondata.getLong("n"));
-                orderUpdate.setOrderTradeTime(jsondata.getLong("T"));
-                orderUpdate.setTradeID(jsondata.getLong("t"));
-                orderUpdate.setBidsNotional(jsondata.getBigDecimal("b"));
-                orderUpdate.setAsksNotional(jsondata.getBigDecimal("a"));
-                orderUpdate.setIsMarkerSide(jsondata.getBoolean("m"));
-                orderUpdate.setIsReduceOnly(jsondata.getBoolean("R"));
-                orderUpdate.setWorkingType(jsondata.getString("wt"));
+                orderUpdate.setSymbol(jsondata.getStringOrDefault("s", null));
+                orderUpdate.setClientOrderId(jsondata.getStringOrDefault("c", null));
+                orderUpdate.setSide(jsondata.getStringOrDefault("S", null));
+                orderUpdate.setType(jsondata.getStringOrDefault("o", null));
+                orderUpdate.setTimeInForce(jsondata.getStringOrDefault("f", null));
+                orderUpdate.setOrigQty(jsondata.getBigDecimalOrDefault("q", null));
+                orderUpdate.setPrice(jsondata.getBigDecimalOrDefault("p", null));
+                orderUpdate.setAvgPrice(jsondata.getBigDecimalOrDefault("ap", null));
+                orderUpdate.setStopPrice(jsondata.getBigDecimalOrDefault("sp", null));
+                orderUpdate.setExecutionType(jsondata.getStringOrDefault("x", null));
+                orderUpdate.setOrderStatus(jsondata.getStringOrDefault("X", null));
+                orderUpdate.setOrderId(jsondata.getLongOrDefault("i", null));
+                orderUpdate.setLastFilledQty(jsondata.getBigDecimalOrDefault("l", null));
+                orderUpdate.setCumulativeFilledQty(jsondata.getBigDecimalOrDefault("z", null));
+                orderUpdate.setLastFilledPrice(jsondata.getBigDecimalOrDefault("L", null));
+                orderUpdate.setCommissionAsset(jsondata.getStringOrDefault("N", null));
+                orderUpdate.setCommissionAmount(jsondata.getBigDecimalOrDefault("n", null));
+                orderUpdate.setOrderTradeTime(jsondata.getLongOrDefault("T", null));
+                orderUpdate.setTradeID(jsondata.getLongOrDefault("t", null));
+                orderUpdate.setBidsNotional(jsondata.getBigDecimalOrDefault("b", null));
+                orderUpdate.setAsksNotional(jsondata.getBigDecimalOrDefault("a", null));
+                orderUpdate.setIsMarkerSide(jsondata.getBooleanOrDefault("m", null));
+                orderUpdate.setIsReduceOnly(jsondata.getBooleanOrDefault("R", null));
+                orderUpdate.setWorkingType(jsondata.getStringOrDefault("wt", null));
                 result.setOrderUpdate(orderUpdate); 
             }
             
