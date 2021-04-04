@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1703655f-d731-49fe-b9f4-d2413bc738f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_mockito_1_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_mockito_common_1_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_support_1_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_1_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_1_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_1_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_1_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binance-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/binance-client-1.0.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/RequestOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/ResponseCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/SubscriptionClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/SubscriptionErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/SubscriptionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/SubscriptionOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/SyncRequestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/constant/BinanceApiConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/exception/BinanceApiException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/ApiSignature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/BinanceApiInternalFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/ChannelParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/InputChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/RestApiInvoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/RestApiJsonParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/RestApiRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/RestApiRequestImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/SyncRequestImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/WebSocketConnection$ConnectionState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/WebSocketConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/WebSocketStreamClientImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/WebSocketWatchDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/WebsocketRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/WebsocketRequestImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/utils/Channels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/utils/EnumLookup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/utils/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/utils/InternalUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/utils/JsonWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/utils/JsonWrapperArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/utils/UrlParamsBuilder$ParamsMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/impl/utils/UrlParamsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/ResponseResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/AccountChangeModeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/AccountChangeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/AccountState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/AccountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/BalanceMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/BalanceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/CandlestickInterval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/CrossMarginTransferType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/DealRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/DepositState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/DepthStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/EtfStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/EtfSwapType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/IncomeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/LoanOrderStates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/MBPLevelEnums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/MarginTransferType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/NewOrderRespType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/OrderRespType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/OrderSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/OrderSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/OrderState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/OrderType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/PeriodType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/PositionSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/QueryDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/QuerySort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/SideEffectType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/StopOrderOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/SymbolState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/TimeInForce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/TradeDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/TransactType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/TransferFuturesDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/TransferMasterType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/TransferType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/WithdrawState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/enums/WorkingType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/event/AggregateTradeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/event/CandlestickEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/event/LiquidationOrderEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/event/MarkPriceEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/event/OrderBookEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/event/SymbolBookTickerEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/event/SymbolMiniTickerEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/event/SymbolTickerEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/AggregateTrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/Candlestick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/CommonLongShortRatio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/ExchangeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/ExchangeInfoEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/ExchangeInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/FundingRate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/LiquidationOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/MarkPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/OpenInterestStat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/OrderBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/OrderBookEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/PriceChangeTicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/RateLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/SymbolOrderBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/SymbolPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/TakerLongShortStat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/market/Trade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/AccountBalance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/AccountInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/Asset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/Income.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/Leverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/MyTrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/PositionRisk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/trade/WalletDeltaLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/user/AccountUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/user/BalanceUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/user/OrderUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/user/PositionUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/binance/client/model/user/UserDataUpdateEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/constants/PrivateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/Get24hrTickerPriceChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetAggregateTrades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetCandlestick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetExchangeInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetFundingRate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetGlobalAccountRatio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetLiquidationOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetMarkPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetOldTrades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetOpenInterestStat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetOrderBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetRecentTrades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetSymbolOrderBookTicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetSymbolPriceTicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetTakerLongShortRatio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetTakerLongShortStat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetTopTraderAccountRatio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/market/GetTopTraderPositionRatio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/AddIsolatedPositionMargin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/BatchCancelOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/BatchPlaceOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/CancelAllOpenOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/CancelOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/ChangeInitialLeverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/ChangeMarginType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/ChangePositionSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetAccountInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetAccountTrades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetAllOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetBalance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetIncomeHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetOpenOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetPositionMarginHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetPositionRisk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/GetPositionSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/trade/PostOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/user/SubscribeUserData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeAggregateTrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeAllBookTicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeAllLiquidationOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeAllMiniTicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeAllTicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeBookDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeCandlestick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeDiffDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeMarkPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeSymbolBookTicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeSymbolLiquidationOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeSymbolMiniTicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/binance/client/examples/websocket/SubscribeSymbolTicker.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1pZf9lt4APjBiyhSAr1JpaMfZaD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1703655f-d731-49fe-b9f4-d2413bc738f9" name="Default Changelist" comment="" />
+      <created>1615395384666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615395384666</updated>
+      <workItem from="1615395388105" duration="6731000" />
+      <workItem from="1617284799519" duration="609000" />
+      <workItem from="1617313043825" duration="4459000" />
+      <workItem from="1617567319282" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
